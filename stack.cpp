@@ -10,7 +10,7 @@ int main()
     vector<int> v;
     fstream newfile;
     map<int,int> mapp;
-    newfile.open("trace.txt",ios::in);
+    newfile.open("test.txt",ios::in);
     if (newfile.is_open()){   
         string line;
         int index=0;
