@@ -432,7 +432,7 @@ int main()
     root = NULL;  
 
     fstream newfile;
-    newfile.open("test.txt",ios::in);
+    newfile.open("trace.txt",ios::in);
     if (newfile.is_open()){   
         string line;
         int index=0;
