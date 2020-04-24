@@ -2,7 +2,7 @@
 ### note: should have trace.txt in the same directory
 ## Result of reuse distance is in result.txt
 ## Usage:
-- $g++ -o avl -Wall AVL.cpp
+- $g++ -o avl -Wall -O3 AVL.cpp
 - $./avl
 
 OR
